@@ -14,10 +14,10 @@ In this repository, you'll find the following sections:
 ## Navigation
 To explore my portfolio, visit the following pages:
 
-- [Homepage](https://<your-username>.github.io/<your-repo-name>) - This is the main page where you can find an overview of my portfolio.
-- [Projects](https://<your-username>.github.io/<your-repo-name>/projects) - A detailed list of my projects.
-- [Skills](https://<your-username>.github.io/<your-repo-name>/skills) - A list of skills and tools I use.
-- [Experience](https://<your-username>.github.io/<your-repo-name>/experience) - Information about my education and work history.
+- [Homepage](https://rachel-perez.github.io/Github-Portfolio/) - This is the main page where you can find an overview of my portfolio.
+- [Projects](https://rachel-perez.github.io/Github-Portfolio/projects) - A detailed list of my projects.
+- [Skills](https://rachel-perez.github.io/Github-Portfolio/skills) - A list of skills and tools I use.
+- [Experience](https://rachel-perez.github.io/Github-Portfolio/experience) - Information about my education and work history.
 
 ## Contact
 If you'd like to get in touch with me, feel free to reach out through the following channels:
