@@ -14,7 +14,7 @@ In this repository, you'll find the following sections:
 ## Navigation
 To explore my portfolio, visit the following pages:
 
-- [Homepage](https://rachel-perez.github.io/Github-Portfolio/) - This is the main page where you can find an overview of my portfolio.
+- [Homepage](https://rachel-perez.github.io/Github-Portfolio/tree/main) - This is the main page where you can find an overview of my portfolio.
 - [Projects](https://rachel-perez.github.io/Github-Portfolio/Projects.html) - A detailed list of my projects.
 - [Skills](https://rachel-perez.github.io/Github-Portfolio/skills) - A list of skills and tools I use.
 - [Experience](https://rachel-perez.github.io/Github-Portfolio/experience) - Information about my education and work history.
