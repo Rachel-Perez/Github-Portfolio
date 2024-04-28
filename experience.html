@@ -40,6 +40,14 @@
             font-size: 1.5em; /* Smaller font size than h1 */
             font-weight: normal; /* Normal weight */
         }
+        /* Third-level background */
+        .third-level {
+            background-color: rgba(255, 255, 255, 0.05); /* Light semi-transparent white */
+            padding: 20px;  /* Internal padding */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);   /* Subtle shadow for depth */
+            margin-bottom: 20px; /* Space between sections */
+            border-radius: 5px;  /* Rounded corners for a softer look */
+        }
         .text-section {
             background-color: rgba(255, 255, 255, 0.08); /* Semi-transparent white */
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);   /* 03dp shadow */
@@ -67,27 +75,31 @@
     <div class="text-section">
         <h2>Work History</h2>
         
-        <h3>Principal Investigator - Supply Chain Vulnerability Study</h3>
-        <p>ERG, Indian Head, MD (Oct 2023 – Present)</p>
-        <ul>
-            <li>Conducted market research and built chemical manufacturing database.</li>
-            <li>Performed advanced chemistry calculations and created project plans.</li>
-            <li>Delivered presentations to project stakeholders.</li>
-        </ul>
-        
-        <h3>Budget Database Development</h3>
-        <p>ERG, Indian Head, MD (Mar 2024 – Present)</p>
-        <ul>
-            <li>Developed VBA and SQL tools for MS Access database.</li>
-        </ul>
-
-        <h3>Machine Learning Researcher</h3>
-        <p>Dr. Xin, Virginia Tech, Blacksburg, VA (May – Oct 2023)</p>
-        <ul>
-            <li>Trained ML models to screen for viable catalyst materials for ammonia electrooxidation.</li>
-            <li>Used Python and Bash for molecular modeling and high-performance computing.</li>
-            <li>Co-authored a publication: <a href="https://doi.org/10.1021/acsestengg.3c00415" target="_blank" rel="noopener noreferrer">Read Article</a></li>
-        </ul>
+        <div class="third-level">
+            <h3>Principal Investigator - Supply Chain Vulnerability Study</h3>
+            <p>ERG, Indian Head, MD (Oct 2023 – Present)</p>
+            <ul>
+                <li>Conducted market research and built chemical manufacturing database.</li>
+                <li>Performed advanced chemistry calculations and created project plans.</li>
+                <li>Delivered presentations to project stakeholders.</li>
+            </ul>
+        </div>
+        <div class="third-level">
+            <h3>Budget Database Development</h3>
+            <p>ERG, Indian Head, MD (Mar 2024 – Present)</p>
+            <ul>
+                <li>Developed VBA and SQL tools for MS Access database.</li>
+            </ul>
+        </div>
+        <div class="third-level">
+            <h3>Machine Learning Researcher</h3>
+            <p>Dr. Xin, Virginia Tech, Blacksburg, VA (May – Oct 2023)</p>
+            <ul>
+                <li>Trained ML models to screen for viable catalyst materials for ammonia electrooxidation.</li>
+                <li>Used Python and Bash for molecular modeling and high-performance computing.</li>
+                <li>Co-authored a publication: <a href="https://doi.org/10.1021/acsestengg.3c00415" target="_blank" rel="noopener noreferrer">Read Article</a></li>
+            </ul>
+        </div>
     </div>
     
     <!-- Education Section -->
