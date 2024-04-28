@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Skills</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       background-color: #121212; /* Dark gray */
@@ -26,6 +27,15 @@
       padding: 10px;            /* Add padding for spacing */
       text-align: center;       /* Center the text for a clean look */
     }
+    .text-section {
+      background-color: rgba(255, 255, 255, 0.08); /* Semi-transparent white */
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);   /* 03dp shadow */
+      padding: 20px;  /* Internal padding */
+      margin-bottom: 20px; /* Space between sections */
+    }
+    .icon {
+      margin-right: 10px; /* Space between icon and text */
+    }
     a {
       color: #BB86FC; /* Purple */
     }
@@ -47,37 +57,42 @@
 
   <!-- Skills Section -->
   <h1>My Skills</h1>
-  <ul>
-    <!-- Skill: Python ML -->
-    <li>
+  <!-- Skill: Python ML -->
+  <div class="text-section">
+      <i class="icon fas fa-robot"></i> <!-- Icon -->
       <strong>Python ML</strong> - I have experience with Python-based machine learning tools such as TensorFlow, Keras, and Scikit-learn. I use these to build, train, and evaluate machine learning models for various applications.
-    </li>
+  </div>
     
-    <!-- Skill: Matlab -->
-    <li>
+  <!-- Skill: Matlab -->
+  <div class="text-section">
+      <i class="icon fas fa-calculator"></i> <!-- Icon -->
       <strong>Matlab</strong> - Proficient in Matlab for numerical computing and data analysis. I've used Matlab for engineering simulations, data visualization, and algorithm development.
-    </li>
+  </div>
     
-    <!-- Skill: Bash HPC -->
-    <li>
+  <!-- Skill: Bash HPC -->
+  <div class="text-section">
+      <i class="icon fas fa-terminal"></i> <!-- Icon -->
       <strong>Bash (HPC)</strong> - Skilled in Bash scripting for high-performance computing tasks. I write scripts for automating workflows, managing data, and running simulations on HPC systems.
-    </li>
+  </div>
     
-    <!-- Skill: VBA -->
-    <li>
+  <!-- Skill: VBA -->
+  <div class="text-section">
+      <i class="icon fas fa-code"></i> <!-- Icon -->
       <strong>VBA</strong> - Experienced with VBA for automating tasks in Microsoft Excel and Access. I create macros to streamline data analysis and reporting.
-    </li>
+  </div>
     
-    <!-- Skill: SQL -->
-    <li>
+  <!-- Skill: SQL -->
+  <div class="text-section">
+      <i class="icon fas fa-database"></i> <!-- Icon -->
       <strong>SQL</strong> - Learning SQL for database querying and data manipulation. I use SQL to extract insights from structured data and create complex queries.
-    </li>
+  </div>
 
-    <!-- Skill: HTML -->
-    <li>
+  <!-- Skill: HTML -->
+  <div class="text-section">
+      <i class="icon fas fa-html5"></i> <!-- Icon -->
       <strong>HTML</strong> - Learning HTML for website design and aesthetics.
-    </li>
-  </ul>
+  </div>
+  
   <footer>
     <a href="index.html">Back to Home</a>    
   </footer>
