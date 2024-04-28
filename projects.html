@@ -23,6 +23,13 @@
       a {
         color: #BB86FC; /* Purple */
       }
+      /* Overlay for text sections */
+      .text-section {
+        background-color: rgba(255, 255, 255, 0.35); /* Semi-transparent white */
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);   /* 03dp shadow */
+        padding: 20px;  /* Internal padding */
+        margin-bottom: 20px; /* Space between sections */
+      }
     </style>
 </head>
 <body>
@@ -36,10 +43,23 @@
       </ul>
   </nav>
   <h1>My Projects</h1>
-  <ul>
-    <li><a href="project1.html" target="_blank" rel="noopener noreferrer">Machine Learning Models for the Prediction of Reduced Glass Transition Temperature of Metallic Glasses</a> - This project involved finding a datasetand importing it, preprocessing the data, data visualization, development of train/test splits, and building and testing performance of various machine learning models.</li>
-    <li><a href="https://github.com/Rachel-Perez/Github-Portfolio/blob/main/project2.ipynb" target="_blank" rel="noopener noreferrer">Analysis of ML Models for the Prediction of Reduced Glass Transition Temperature of Metallic Glasses</a> - Building off the ML models I created in the first project, I used analyzed the covariance of the data, the model's feature importance, individual conditional expectation, and more.</li>
-  </ul>
+  <!-- Project 1-->
+  <div class="text-section">
+    <a href="project1.html" target="_blank" rel="noopener noreferrer">
+      Machine Learning Models for the Prediction of Reduced Glass Transition Temperature of Metallic Glasses
+    </a>
+    <p>This project involved finding a datasetand importing it, preprocessing the data, data visualization, development of train/test splits, and building and testing performance of various machine learning models.</p>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="text-section">
+    <a href="https://github.com/Rachel-Perez/Github-Portfolio/blob/main/project2.ipynb" target="_blank" rel="noopener noreferrer">
+      Analysis of ML Models for the Prediction of Reduced Glass Transition Temperature of Metallic Glasses
+    </a> 
+    <p> Building off the ML models I created in the first project, I used analyzed the covariance of the data, the model's feature importance, individual conditional expectation, and more.</p>
+  </div>
+
+  <!-- Footer -->
   <footer>
     <a href="index.html">Back to Home</a>    
   </footer>
